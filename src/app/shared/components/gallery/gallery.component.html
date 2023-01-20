@@ -1,0 +1,6 @@
+<figure *ngFor="let item of list">
+  <div class="row">
+  <img width="200" src="{{item.attributes.posterImage.original}}" alt="{{item.attributes.canonicalTitle}}">
+  <figcaption>{{item.attributes.canonicalTitle}}</figcaption>
+  </div>
+</figure>
